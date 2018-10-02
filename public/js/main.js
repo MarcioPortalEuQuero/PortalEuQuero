@@ -271,7 +271,7 @@ $(function() {
   });
 
   socket.on('reconnect', () => {
-    log('reconexctado');
+    log('reconectado');
     if (username) {
       socket.emit('add user', username);
     }
