@@ -1,27 +1,22 @@
 {
-  "name": "socketio-simple-chat",
-  "version": "1.0.0",
-  "description": "A simple NodeJS and Socket.io chat script",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app"
-  },
-  "author": "Daniel Campos <d.ericeira@hotmail.com>",
-  "license": "MIT",
-  "repository": {
-    "url": "http://",
-    "type": "git"
-  },
-  "dependencies": {
-    "check-node-version": "^2.1.0",
-    "cluster": "^0.7.7",
-    "express": "^4.14.0",
-    "i": "^0.3.5",
-    "jquery": "^3.1.1",
-    "npm": "^6.4.1",
-    "os": "^0.1.1",
-    "socket.io": "^2.1.1",
-    "socket.io-client": "^1.5.1",
-    "socketio": "^1.0.0"
+  " nome " : " parsejson " ,
+  " versão " : " 0.0.3 " ,
+  " description " : " Método que analisa uma string JSON e retorna um objeto JSON " ,
+  " repositório " : {
+    " tipo " : " git " ,
+    " url " : " https://github.com/get/parsejson.git "
+  }
+  " homepage " : " https://github.com/get/parsejson " ,
+  " scripts " : {
+    " test " : " make test "
+  }
+  " devDependencies " : {
+    " mocha " : " 1.17.1 " ,
+    " better-assert " : " ~ 1.0.0 "
+  }
+  " autor " : " Gal Koren " ,
+  " licença " : " MIT " ,
+  " dependências " : {
+    " better-assert " : " ~ 1.0.0 "
   }
 }
